@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+        <view id="base_setup_config_settings_view_form" model="ConfigSettings"
+              inherit_id="base_config_settings_view_form">
+            <xpath expr="//div[@class='settings']" position="inside">
+                <div class="app_settings_block" data-string="General Settings" string="General Settings"
+                     data-key="general_settings">
+                    <div id="emails"/>
+                    <h2>Users</h2>
+                    <div class="row mt16 o_settings_container" id="user_default_rights">
+                        <div class="col-12 col-lg-6 o_setting_box"
+                             title="By default, new users get highest access rights for all installed apps."
+                             id="access_rights">
+                            <div class="o_setting_left_pane">
+                                <field name="user_default_rights"/>
+                            </div>
+                            <div class="o_setting_right_pane">
+                                <label string="Access Rights" for="user_default_rights"/>
+                                <div class="text-muted">
+                                    Set custom access rights for new users
+                                </div>
+                                <div class="content-group" attrs="{'invisible': [('user_default_rights','=',False)]}">
+                                    <div class="mt16">
+                                        <button type="object" name="open_default_user" string="Default Access Rights"
+                                                icon="fa-arrow-right" class="btn-link"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="multi_company">
+                        <field name="company_id" invisible="1"/>
+                        <h2>Multi-companies</h2>
+                        <div class="row mt16 o_settings_container" name="multi_company"/>
+                     </div>
+                    <h2>Integrations</h2>
+                    <div class="row mt16 o_settings_container" name="integration">
+                    </div>
+                </div>
+            </xpath>
+        </view>
+
+        <action id="base_setup_action_general_configuration" type="ir.actions.act_window" name="Settings"
+                model="ConfigSettings" view_mode="form" target="inline"/>
+
+        <menuitem id="base_setup_menu_config"
+                  name="General Settings"
+                  parent="base_menu_administration"
+                  sequence="2"
+                  action="base_setup_action_general_configuration"
+                  groups="base_group_system"/>
+
+    </data>
+</hexya>

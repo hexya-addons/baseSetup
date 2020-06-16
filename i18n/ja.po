@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. field:ConfigSettings.Company
+msgid "Company"
+msgstr "会社"
+
+#. field:ConfigSettings.UserDefaultRights
+msgid "Default Access Rights"
+msgstr "デフォルトアクセス権"
+
+#. field:ConfigSettings.ExternalEmailServerDefault
+msgid "External Email Servers"
+msgstr "外部Eメールサーバ"
+
+#. resource:base_setup_menu_config
+msgid "General Settings"
+msgstr "一般設定"
+
+#. field:ConfigSettings.ID
+msgid "ID"
+msgstr ""
+
+#. resource:base_setup_action_general_configuration
+msgid "Settings"
+msgstr "管理設定"
+

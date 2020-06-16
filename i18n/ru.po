@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. field:ConfigSettings.Company
+msgid "Company"
+msgstr "Компания"
+
+#. field:ConfigSettings.UserDefaultRights
+msgid "Default Access Rights"
+msgstr "Права доступа по умолчанию"
+
+#. field:ConfigSettings.ExternalEmailServerDefault
+msgid "External Email Servers"
+msgstr "Внешние Почтовые Сервера"
+
+#. resource:base_setup_menu_config
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#. field:ConfigSettings.ID
+msgid "ID"
+msgstr ""
+
+#. resource:base_setup_action_general_configuration
+msgid "Settings"
+msgstr "Настройки"
+
